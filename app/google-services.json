@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438047858047",
+    "project_id": "examencedenomendoza",
+    "storage_bucket": "examencedenomendoza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438047858047:android:8793c032fdf934f7d18e4a",
+        "android_client_info": {
+          "package_name": "com.example.examencedenomendoza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438047858047-oso67ju6p2qm0m9ihk15fhqfjrn3arf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAysWlSlRK_p9AZsdouJmk7IEhD8u2xZYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438047858047-oso67ju6p2qm0m9ihk15fhqfjrn3arf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
