@@ -12,10 +12,10 @@ class TelevisorAdapter(val lista: List<Televisor>):RecyclerView.Adapter<Televiso
     class ViewHolderTelevisor(view: View) : RecyclerView.ViewHolder(view) {
         val binding: RecycleviewItemBinding = RecycleviewItemBinding.bind(view)
         fun bin(item:Televisor){
-            binding.lblSerie.text = item.serie.toString()
+            binding.lblSerie.text = item.serie
             binding.lblMarca.text = item.marca
             binding.lblModelo.text=item.modelo
-            binding.lblPulgadas.text = item.pulgadas.toString()
+            binding.lblPulgadas.text = item.pulgadas
             Picasso.get().load(item.urlImagen).into(binding.imagen)
         }
 

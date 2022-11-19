@@ -17,5 +17,21 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/recycleview_item"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Televisor a buscar"
+            android:id="@+id/dato2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Buscar"
+            android:id="@+id/buscar"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
