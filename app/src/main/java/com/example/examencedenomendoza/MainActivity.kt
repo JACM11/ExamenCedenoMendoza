@@ -1,7 +1,9 @@
 package com.example.examencedenomendoza
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.examencedenomendoza.databinding.ActivityMainBinding
 import com.google.firebase.firestore.FirebaseFirestore
@@ -105,8 +107,10 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
         }
-        //leerTelevisores()
     }
+
+
+
 
 }
 
